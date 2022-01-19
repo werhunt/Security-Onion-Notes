@@ -4,6 +4,6 @@ To get past this problem, make the below adjustment:
 
 sudo nano /usr/lib/NetworkManager/conf.d/10-globally-managed-devices.conf
 
-change the value for 'unmanaged-devices=*' to 'unmanaged-devices=none'
+change the value for ```unmanaged-devices=*``` to ```unmanaged-devices=none```
 
 save and restart Network Manager with ```sudo systemctl restart NetworkManager```
